@@ -14,7 +14,7 @@ var app = express();
 
 // View Engine
 app.set('views', path.join(__dirname, 'views'));
-app.set('views engine', 'ejs');
+app.set('view engine', 'ejs');
 
 // Set Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
