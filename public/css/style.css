@@ -2,6 +2,11 @@ body {
   background-color: #eee !important;
 }
 
+.reg-page, .login-page{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .form-signin {
   max-width: 330px;
   padding: 15px;
@@ -35,4 +40,24 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+#messages ul.error{
+  list-style: none;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#messages ul.success{
+  list-style: none;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
